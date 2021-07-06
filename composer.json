@@ -1,20 +1,29 @@
 {
-    "name": "root/randomizer",
-    "autoload": {
-        "psr-4": {
-            "Randomizer\\": "inc/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Grzegorz Garbacz",
-            "email": "sproket176@gmail.com",
-            "role": "Developer",
-            "homepage": "https://useme.com/pl/roles/contractor/grzegorz-garbacz,125944/"
-        }
-    ],
-    "type": "library",
-    "require": {
-        "fakerphp/faker": "^1.14"
+  "name": "root/randomizer",
+  "autoload": {
+    "psr-4": {
+      "Randomizer\\": "inc/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Randomizer\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Grzegorz Garbacz",
+      "email": "sproket176@gmail.com",
+      "role": "Developer",
+      "homepage": "https://useme.com/pl/roles/contractor/grzegorz-garbacz,125944/"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "ext-pdo": "*",
+    "fakerphp/faker": "^1.14"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5"
+  }
 }

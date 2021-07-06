@@ -1,6 +1,3 @@
-<?php
-/*
-
 Randomizer bazodanowy - używany gdy zachodzi potrzeba uruchomienia instancji developerskiej mając tylko produkcyjną bazę danych, która zawiera dane osobowe klientów.
 Rzeczywiste dane muszą zostać zamienione na testowe.
 
@@ -22,11 +19,3 @@ Napisać podstawowe testy jednostkowe.
 
 Dane wyjściowe:
 Tablica z podstawowymi statystykami przeprowadzonego procesu
- */
-$config['db_host'] = 'localhost';
-$config['db_name'] = 'randomizer_production';
-$config['db_pass'] = '';
-
-$config['db_host_dev'] = 'localhost';
-$config['db_name_dev'] = 'randomizer_dev';
-$config['db_pass_dev'] = '';
