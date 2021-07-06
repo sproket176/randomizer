@@ -1,0 +1,20 @@
+{
+    "name": "root/randomizer",
+    "autoload": {
+        "psr-4": {
+            "Randomizer\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grzegorz Garbacz",
+            "email": "sproket176@gmail.com",
+            "role": "Developer",
+            "homepage": "https://useme.com/pl/roles/contractor/grzegorz-garbacz,125944/"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "fakerphp/faker": "^1.14"
+    }
+}
